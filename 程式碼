@@ -132,9 +132,9 @@ else if(Pin17==HIGH)
  if (millis() - timer >= 300) 
 {
  timer += 300; deciSeconds--; 
-if (deciSeconds%100 == 59)
+if (deciSeconds%100 == 99)
  {
- deciSeconds=deciSeconds-59;
+ deciSeconds=deciSeconds-40;
  }
  Else
  {
